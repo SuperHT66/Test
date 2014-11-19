@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CEConnection.cs" />
+    <Compile Include="CEDocument.cs" />
+    <Compile Include="CEModel\CEDocumentInfo.cs" />
+    <Compile Include="CEModel\CESearchInfo.cs" />
+    <Compile Include="CEObjectStores.cs" />
+    <Compile Include="CESearch.cs" />
     <Compile Include="CEUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
