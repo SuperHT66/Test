@@ -18,7 +18,7 @@ namespace FileNetLoadData_Z050
             string file = string.Empty;
             string singleTime = string.Empty;
             DateTime allBeginTime = DateTime.Now;
-            ce = FileNetApi.ConnectionCE();
+            ce = FileNetApi.ConnectionCE(); 
             ArrayList list = Library.GetFileName(dirPath);
             for (int i = 0; i < list.Count; i++)
             {
